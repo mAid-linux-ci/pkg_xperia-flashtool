@@ -15,7 +15,7 @@ depends=('libselinux' 'libsystemd' 'glib2' 'mono')
 source=("https://github.com/Androxyde/Flashtool/releases/download/${pkgver}/${_realname}-${pkgver}.tar.bz2"
         "${pkgname}.sh")
 # Upstream archive and launcher script
-md5sums=('c482b3564c3485dedfc36f8c13589cf5'
+md5sums=('d45dcd8fb36500e8dec05cbf939b1d0e'
          '457c5decbc0f5ace3d0d9b98dfdd9ffa')
 options=('!strip')
 
