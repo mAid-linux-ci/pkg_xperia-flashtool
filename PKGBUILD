@@ -10,7 +10,7 @@ pkgdesc="A S1 protocol flashing software for Sony Xperia phones"
 arch=('x86_64')
 url="http://www.flashtool.net/"
 license=('GPL3')
-depends=('libselinux' 'libsystemd' 'glib2' 'mono')
+depends=('libselinux' 'libsystemd' 'glib2' 'mono' 'libsepol')
 # ${source} obtained from upstream project ${url}
 source=("https://github.com/Androxyde/Flashtool/releases/download/${pkgver}/${_realname}-${pkgver}.tar.bz2"
         "${pkgname}.sh")
