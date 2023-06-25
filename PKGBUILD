@@ -4,13 +4,13 @@
 
 pkgname=xperia-flashtool
 _realname=flashtool
-pkgver=0.9.36.0
+pkgver=0.9.36.1
 pkgrel=1
 pkgdesc="A S1 protocol flashing software for Sony Xperia phones"
 arch=('x86_64')
 url="http://www.flashtool.net/"
 license=('GPL3')
-depends=('libselinux' 'libsystemd' 'glib2' 'mono')
+depends=('libselinux' 'libsystemd' 'glib2' 'mono' 'libsepol')
 # ${source} obtained from upstream project ${url}
 source=("https://github.com/Androxyde/Flashtool/releases/download/${pkgver}/${_realname}-${pkgver}-linux.tar.bz2"
         "${pkgname}.sh")
